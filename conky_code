@@ -1,0 +1,5 @@
+TEXT
+# Synopsis
+# texeci num_in_seconds python /script/path/*.py
+
+${texeci 1800 python /usr/local/etc/conky/scripts/dropbox_todo.py}

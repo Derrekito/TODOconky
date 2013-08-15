@@ -34,7 +34,7 @@ for i in range(len(pad)-1):
 
 for i in range(len(list)): #take blank line into account
     if len(list[i])> 30:
-        s = list[i].splitlines(10) # careful, is string is long enough this will break
+        s = list[i].splitlines(10) # careful, if string is long enough this will break
         for i in range(len(s)):
             print s[i]
     else:
